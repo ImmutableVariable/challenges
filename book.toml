@@ -1,0 +1,6 @@
+[book]
+authors = ["Sloth"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Coding Challenges"
