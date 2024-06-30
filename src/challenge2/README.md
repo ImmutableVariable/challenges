@@ -15,5 +15,3 @@ So 13 is a happy number.
 ## Challenge
 
 Create a function that accepts a number and returns True if the number is a happy number, False if it is not.
-
-## [Answers](answers.md)
