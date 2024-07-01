@@ -41,3 +41,7 @@
     - [Answer](./challenge19/answers.md)
 - [Square Root Calculation](./challenge20/README.md)
     - [Answer](./challenge20/answers.md)
+- [Find the Missing Number](./challenge21/README.md)
+    - [Answer](./challenge21/answers.md)
+- [Run Length Encoding](./challenge22/README.md)
+    - [Answer](./challenge22/answers.md)
