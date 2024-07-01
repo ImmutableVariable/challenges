@@ -13,10 +13,10 @@ You can also add new challenges! However, please follow the format of the existi
     - you will put the example test/output as a code block
 - You would also create an `answers.md` file with the solutions
     - you will put the solutions in this general format
-        - ## {Language}
-        - ```{language}
+        - \#\# {Language}
+        - \`\`\`{language}
         - {code}
-        - ```
+        - \`\`\`
 - Add the challenge to the `SUMMARY.md` file
 - Create a pull request
 
