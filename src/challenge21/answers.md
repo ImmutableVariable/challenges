@@ -12,6 +12,22 @@ function findMissingNumber(v) {
 }
 ```
 
+## JavaScript - HashMap
+
+```js
+function findMissing(numbers) {
+    const seen = new Set(numbers);
+    const n = Math.max(...numbers) + 1;
+    for (let i = 1; i <= n; i++) {
+        if (!seen.has(i)) {
+            return i;
+        }
+    }
+    return n + 1;
+}
+
+```
+
 ## Rust - Sum
 
 ```rust
@@ -31,3 +47,22 @@ findMissingNumber v = n * (n + 1) `div` 2 - sum v
     where n = fromIntegral $ length v + 1
 ```
 
+## C
+
+```c
+int findMissingNumber(int arr[], int size) {
+    int xor = 0;
+    for(int i = 0; i < size; i++) {
+        xor ^= arr[i] ^ (i + 1);
+    }
+    return xor ^ (size + 1);
+}
+```
+
+## Python
+
+```py
+def find_missing(numbers):
+    n = len(numbers) + 1
+    return (n * (n + 1)) // 2 - sum(numbers)
+```
