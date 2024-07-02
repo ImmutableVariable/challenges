@@ -4,3 +4,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Coding Challenges"
+
+[output.html]
+git-repository-url = "https://github.com/ImmutableVariable/Coding-Challenges"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/ImmutableVariable/Coding-Challenges/edit/main/{path}"
