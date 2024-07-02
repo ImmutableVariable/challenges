@@ -45,3 +45,5 @@
     - [Answer](./challenge21/answers.md)
 - [Run Length Encoding](./challenge22/README.md)
     - [Answer](./challenge22/answers.md)
+- [Find the Longest Word in a String](./challenge23/README.md)
+    - [Answer](./challenge23/answers.md)

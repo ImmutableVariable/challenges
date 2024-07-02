@@ -2,6 +2,10 @@
 
 This is a compilation of my programming challenges along with some solutions in multiple languages. I try to provide a acceptable solution for each problem but I am not perfect, feel free to add better or your own solutions by creating a pull request. The challenges are not in any particular order, so feel free to jump around and try to solve them. All challenges are language agnostic, so you can solve them in any language you like.
 
+## These challenges are for you if:
+- You are a beginner/intermediate programmer and want to practice.
+- You want to experiment with a new language.
+
 ## General Steps to Add a New Challenge
 You can also add new challenges! However, please follow the format of the existing challenges.
 
