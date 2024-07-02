@@ -20,6 +20,33 @@ You can also add new challenges! However, please follow the format of the existi
 - Add the challenge to the `SUMMARY.md` file
 - Create a pull request
 
+### Special Instructions for Rust Solutions
+MdBook features a runtime for the builtin code blocks, please include the valid code to run the test/code in the code block. You can use the following syntax to run the code block:
+
+```bash
+# fn main() { // # is used to hide this line
+    let x = 5;
+    let y = 6;
+
+    println!("{}", x + y);
+# } // # is used to hide this line
+```
+
+Therefore, all the end user will see is
+
+```rust
+#fn main() {
+    let x = 5;
+    let y = 6;
+
+    println!("{}", x + y);
+#}
+```
+
+However, they can click in the top right corner and run the code on their machine. More info [here](https://rust-lang.github.io/mdBook/format/mdbook.html).
+
+(CODE SOURCE: [mdBook](https://rust-lang.github.io/mdBook/format/mdbook.html))
+
 ## License
 
 This book is licensed under the MIT License. See here for more details: [LICENSE](https://raw.githubusercontent.com/ImmutableVariable/Coding-Challenges/main/LICENSE)

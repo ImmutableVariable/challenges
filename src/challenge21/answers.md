@@ -37,6 +37,11 @@ fn find_missing_number(v: &Vec<i32>) -> i32 {
     let sum: i32 = v.iter().sum();
     total - sum
 }
+
+# fn main() {
+let v = vec![1, 2, 4, 6, 3, 7, 8];
+assert_eq!(find_missing_number(&v), 5); // no output
+# }
 ```
 
 ## Haskell

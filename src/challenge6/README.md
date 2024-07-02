@@ -7,6 +7,5 @@ Create a program that checks if a given strings is a palindrome.  A palindromeis
 ```python
 assert is_palindrome("racecar") == True
 assert is_palindrome("hello") == False
-assert is_pal
 ```
      

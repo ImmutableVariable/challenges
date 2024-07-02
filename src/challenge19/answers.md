@@ -16,6 +16,11 @@ fn leibniz(n: u32) -> f64 {
     
     return (numerator / (2 * n + 1) as f64) + leibniz(n-1);
 }
+
+# fn main() {
+#     let n = 10000;
+#     println!("Result: {}", 4.0 * leibniz(n));
+# }
 ```
 
 ```rust
@@ -36,5 +41,10 @@ fn bellard_pi(iterations: i32) -> f64 {
     }
     return sum / 64.0;
 }
+
+# fn main() {
+#    let iterations = 10;
+#    println!("Result: {}", bellard_pi(iterations));
+# }
 ```
 

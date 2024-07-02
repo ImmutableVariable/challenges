@@ -4,8 +4,8 @@ You are given a list of n-1 integers and these integers are in the range of 1 to
 
 ## Example Test Case (Rust)
 
-```rust 
-let v = vec![1, 2, 4, 6, 3, 7, 8];`
+```rust, noplayground
+let v = vec![1, 2, 4, 6, 3, 7, 8];
 assert_eq!(find_missing_number(&v), 5);
 ```
 
