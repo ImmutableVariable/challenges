@@ -53,3 +53,5 @@
     - [Answer](./challenge25/answers.md)
 - [Shortest Path Finder](./challenge26/README.md)
     - [Answer](./challenge26/answers.md)
+- [Determining the Day of the Week](./challenge27/README.md)
+    - [Answer](./challenge27/answers.md)
