@@ -47,3 +47,5 @@
     - [Answer](./challenge22/answers.md)
 - [Find the Longest Word in a String](./challenge23/README.md)
     - [Answer](./challenge23/answers.md)
+- [End to End Encryption](./challenge24/README.md)
+    - [Answer](./challenge24/answers.md)

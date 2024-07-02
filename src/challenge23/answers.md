@@ -19,7 +19,7 @@ function longest_word(str) {
 
 ```rust
 fn longest_word(s: &str) -> String {
-    let words: Vec<&str> = s.split_whitespace().collect();
+    let words: Vec<&str> = s.split_whitespace().collect()
     let mut longest = String::new();
     for word in words {
         if word.len() > longest.len() {
