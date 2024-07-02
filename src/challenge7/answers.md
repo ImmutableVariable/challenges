@@ -15,3 +15,19 @@ function generatePassword(length) {
 
 console.log(generatePassword(10));
 ```
+
+## Lua
+
+```lua
+function generate_random_password(length)
+    local characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+{}[]|:;<>,.?/~"
+    local password = ""
+    for i = 1, length do
+        local random_index = math.random(1, #characters)
+        password = password .. string.sub(characters, random_index, random_index)
+    end
+    return password
+end
+```
+
+
