@@ -7,8 +7,10 @@ A phrase that can be formed from rearranging the characters of another string.
 
 ## Examples
 
-`a` , `a` -> `True`
-`b`, `a` -> `False`
-`b a`, `a b` -> `True`
-`Ba`, `ba` -> `True`
-`silent`, `listen` -> `True`
+```
+a , a -> True
+b, a -> False
+b a, a b -> True
+Ba, ba -> True
+silent, listen -> True
+```

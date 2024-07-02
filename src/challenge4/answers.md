@@ -1,6 +1,6 @@
 # Answers
 
-## JaveScript
+## JavaScript
 
 ```js
 function rotate(nums, k, right) {

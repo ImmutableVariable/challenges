@@ -13,11 +13,5 @@ function generatePassword(length) {
   return password;
 }
 
-// secure
-function genreateSecurePassword(length) {
-    return require('crypto').randomBytes(length).toString('base64')
-}
-
 console.log(generatePassword(10));
-console.log(genreateSecurePassword(10));
 ```

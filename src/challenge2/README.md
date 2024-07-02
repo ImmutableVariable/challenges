@@ -5,10 +5,12 @@ Here is how it works basically:
 2. Square the individual digits of N then add them together
 3. Repeat step 2 until the answer is equal to 1, if it is a infinite loop, it is not a happy number.
 
-Ex:
+## Example
+```
 N = 13
 1^2 + 3^2 = 1 + 9 = 10
 1^2 + 0^2 = 1
+```
 
 So 13 is a happy number.
 

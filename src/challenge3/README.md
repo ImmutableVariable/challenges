@@ -4,7 +4,13 @@
 A Armstrong number is a number that is equal to the sum of the values of the digits raised to the length of the number.
 
 ## Examples: 
+
+```
 1^3 + 5^3 + 3^3 = 153
 1^4 + 6^4 + 3^4 + 4^4 = 1634
-0^1 = 0
-individual_digit_of_N^number_of_digits_in_N = N
+0^1 = 0 
+individual_digit_of_N^number_of_digits_in_N = N_Is_Armstrong_number
+```
+
+So, 153 is a Armstrong number, 1634 is a Armstrong number, and 0 is a Armstrong number.
+
