@@ -49,3 +49,5 @@
     - [Answer](./challenge23/answers.md)
 - [End to End Encryption](./challenge24/README.md)
     - [Answer](./challenge24/answers.md)
+- [Series Pattern Detection](./challenge25/README.md)
+    - [Answer](./challenge25/answers.md)
