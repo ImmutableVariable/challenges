@@ -43,12 +43,10 @@ MdBook features a runtime for the builtin code blocks, please include the valid 
 Therefore, all the end user will see is
 
 ```rust
-#fn main() {
     let x = 5;
     let y = 6;
 
     println!("{}", x + y);
-#}
 ```
 
 However, they can click in the top right corner and run the code on their machine. More info [here](https://rust-lang.github.io/mdBook/format/mdbook.html).
