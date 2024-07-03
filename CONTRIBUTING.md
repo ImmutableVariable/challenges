@@ -17,12 +17,12 @@ There are many ways to contribute to this project. Here are a few ideas:
 - Solutions that are not in the correct format (see below)
 - Creating a issue because you can't solve a challenge
 
-# First Time Contributors
+## First Time Contributors
 
 You can contribute by creating a new challenge or adding a solution to an existing challenge. Please refer to previous examples however and follow the general format.
 Feel free to checkout here: https://makeapullrequest.com/. Feel free to ask for help too!
 
-# General Steps to Add a New Challenge
+## General Steps to Add a New Challenge
 
 - Fork the repository
 - if you want to add a new challenge called "New Challenge", you would create a folder called `challenge{number}`
