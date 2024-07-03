@@ -16,7 +16,7 @@ println!("{}", get_day_of_week(1, 1, 2020));
 #}
 ```
 
-(d+=m<3 ? y-- : y-2,23*m/9+d+4+y/4-y/100+y/400) % 7## Rust - [Schwerdtfeger's method](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#Schwerdtfeger's_method)
+## Rust - [Schwerdtfeger's method](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#Schwerdtfeger's_method)
 ```rust
 const DAYS: [&str; 7] = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 

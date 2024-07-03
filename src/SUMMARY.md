@@ -1,5 +1,6 @@
 # Summary
 
+# Table of Contents
 - [Introduction](./README.md)
 - [Reversing A String While Preserving Special Characters](./challenge1/README.md)
     - [Answer](./challenge1/answers.md)
