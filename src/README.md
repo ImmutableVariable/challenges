@@ -7,7 +7,7 @@ This is a compilation of my programming challenges along with some solutions in 
 - You want to experiment with a new language.
 
 ## General Steps to Add a New Challenge
-You can also add new challenges! However, please follow the format of the existing challenges.
+You can also add new challenges! However, please follow the format of the existing challenges. Contributing guidelines can be found in the [CONTRIBUTING.md](https://raw.githubusercontent.com/ImmutableVariable/Coding-Challenges/main/CONTRIBUTING.md) file.
 
 - Fork the repository
 - if you want to add a new challenge called "New Challenge", you would create a folder called `challenge{number}`
