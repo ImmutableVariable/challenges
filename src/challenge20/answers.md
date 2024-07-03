@@ -3,6 +3,20 @@
 ## Rust
 
 ```rust
+#use std::f64::consts::E;
+fn square_root(s: f64) -> f64 {
+    // sqrt(x) = e^((1/2)ln(S))
+    let guess = E.powf(0.5 * f64::ln(s));
+    (guess * 1e9).round() / 1e9 // round to 9 decimal places
+}
+
+#fn main() {
+let s = 19.0;
+println!("The square root of {} is {}", s, square_root(s));
+#}
+```
+
+```rust, editable
 fn herons_method(S: f64, x_current: f64, tolerance: f64) -> f64 {
     let x_next = 0.5 * (x_current + S / x_current);
     
