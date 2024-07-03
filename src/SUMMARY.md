@@ -56,3 +56,5 @@
     - [Answer](./challenge26/answers.md)
 - [Determining the Day of the Week](./challenge27/README.md)
     - [Answer](./challenge27/answers.md)
+- [Zeckendorf Representation](./challenge28/README.md)
+    - [Answer](./challenge28/answers.md)

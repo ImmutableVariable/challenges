@@ -1,7 +1,7 @@
 # Answer
 
 ## Rust - Sakamoto's method
-```rust
+```rust, editable
 const DAYS: [&str; 7] = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 fn get_day_of_week(day: i32, month: i32, year: i32) -> String {
@@ -12,7 +12,7 @@ fn get_day_of_week(day: i32, month: i32, year: i32) -> String {
 }
 
 #fn main() {
-println!("{}", get_day_of_week(1, 1, 2020));
+    println!("{}", get_day_of_week(1, 1, 2020));
 #}
 ```
 

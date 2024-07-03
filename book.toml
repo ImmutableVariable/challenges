@@ -9,3 +9,6 @@ title = "Coding Challenges"
 git-repository-url = "https://github.com/ImmutableVariable/Coding-Challenges"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/ImmutableVariable/Coding-Challenges/edit/main/{path}"
+
+[output.html.playground]
+editable = true
