@@ -14,7 +14,7 @@ You can also add new challenges! However, please follow the format of the existi
 - Inside the folder, you would create a `README.md` file with the challenge description
     - you will put the challenge name as the title with a # {name (New Challenge)}
     - you will put the challenge description as the first paragraph
-    - you will put the example test/output as a code block
+    - you will put the example test case/output as a code block
 - You would also create an `answers.md` file with the solutions
     - you will put the solutions in this general format
         - \#\# {Language}
