@@ -49,3 +49,40 @@ function getDayOfTheWeek(day, month, year) {
     return days[w];
 }
 ```
+
+## Python - Simplified Zeller w/ Keith's Month-Length Equation
+
+```py
+import math
+
+days = ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri"]
+
+def h(d, m, y):
+    if m == 1 or m == 2:
+        y -= 1
+        m += 12
+    return days[((d+math.floor((((23*m)/9)+4))+y+math.floor(y/4)-math.floor(y/100)+math.floor(y/400)) % 7) - 1]
+```
+
+### Rust Equivalent
+
+```rust
+const DAYS: [&str; 7] = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+fn get_day_of_week(day: i32, mut month: i32, mut year: i32) -> String {
+    if month < 3 {
+        month += 12;
+        year -= 1;
+    }
+    let d = day;
+    let k = year % 100;
+    let j = year / 100;
+    let day_of_week = (d + ((13 * (month + 1)) / 5) + k + (k / 4) + (j / 4) + 5 * j) % 7;
+
+    DAYS[(day_of_week + 6) as usize % 7].to_string()
+}
+
+#fn main() {
+println!("{}", get_day_of_week(1, 1, 2020));
+#}
+```
