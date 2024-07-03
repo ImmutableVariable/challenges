@@ -8,3 +8,5 @@ Zeckendorf's theorem states that every positive integer can be represented as th
 64 -> [55, 8, 1]
 4 -> [3, 1]
 ```
+
+![Zeckendorf Representation](https://upload.wikimedia.org/wikipedia/commons/1/1f/Zeckendorf_representations_89px.png)
