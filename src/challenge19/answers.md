@@ -3,27 +3,6 @@
 ## Rust
 
 ```rust
-fn leibniz(n: u32) -> f64 {
-    if n == 0 {
-       return 1.0
-    }
-    
-    let numerator = if n % 2 == 0 {
-        1.0
-    } else {
-        -1.0
-    };
-    
-    return (numerator / (2 * n + 1) as f64) + leibniz(n-1);
-}
-
-# fn main() {
-    let n = 10000;
-    println!("Result: {}", 4.0 * leibniz(n));
-# }
-```
-
-```rust
 fn bellard_pi(iterations: i32) -> f64 {
     let mut sum: f64 = 0.0;
     for n in 0..iterations {
@@ -43,8 +22,29 @@ fn bellard_pi(iterations: i32) -> f64 {
 }
 
 # fn main() {
-    let iterations = 10;
-    println!("Result: {}", bellard_pi(iterations));
+let iterations = 10;
+println!("Result: {}", bellard_pi(iterations));
+# }
+```
+
+```rust
+fn leibniz(n: u32) -> f64 {
+    if n == 0 {
+       return 1.0
+    }
+    
+    let numerator = if n % 2 == 0 {
+        1.0
+    } else {
+        -1.0
+    };
+    
+    return (numerator / (2 * n + 1) as f64) + leibniz(n-1);
+}
+
+# fn main() {
+let n = 10000;
+println!("Result: {}", 4.0 * leibniz(n));
 # }
 ```
 
