@@ -54,3 +54,29 @@ def zec(n):
             nums.pop()
     return l
 ```
+
+You could also do it in a single line using Lambdas
+
+```python
+zr = lambda n, fibs=[0, 1]: fibs.append(fibs[-1] + fibs[-2]) or zr(n, fibs) if fibs[-1] < n else [x for x in fibs[::-1] if n >= x and (n := n - x) >= 0 and x != 0]
+```
+
+## Haskell
+
+```haskell
+f=0:1:zipWith(+)f(tail f)
+z n|n>0=let a=last$takeWhile(<=n)f in a:z(n-a)|0<1=[]
+```
+
+But since that is not that good to read here is the cleaner and better to read version:
+
+```haskell
+fibonacci :: [Int]
+fibonacci = 0 : 1 : zipWith (+) fibonacci (tail fibonacci)
+
+zeckendorf :: Int -> [Int]
+zeckendorf n 
+    | n > 0     = let largestFib = last $ takeWhile (<= n) fibonacci
+                  in largestFib : zeckendorf (n - largestFib)
+    | otherwise = []
+```
