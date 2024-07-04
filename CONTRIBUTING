@@ -16,8 +16,12 @@ There are many ways to contribute to this project. Here are a few ideas:
 - Solutions that are not your own
 - Solutions that are not in the correct format (see below)
 - Creating a issue because you can't solve a challenge
-- DO NOT submit code golf solutions unless the prompt EXPLICITLY asks for it. Code golfed solutions are NOT beginner friendly and are NOT helpful for most people. They don't teach good programming practices and are often hard to read or understand. They might also be less efficent than other solutions as you prioritize short code over efficency. 
-    - Feel free to do it on your own, just dont submit it offically to the repository unless the prompt asks for it.
+- DO NOT submit code golf solutions unless the prompt EXPLICITLY asks for it.
+    - Why?
+        - Code golfed solutions are NOT beginner friendly and are NOT helpful for most people. 
+        - They don't teach good programming practices and are often hard to read or understand. 
+        - They might also be less efficent than other solutions as you prioritize shortcode over efficency . 
+    - Feel free to do it on your own, just dont submit it offically to the repository unless the prompt EXPLICITLY asks for it.
     - IF the prompt asks for it, you MUST provide a non golfed solution with comments explaining the golfed solution.
     - If you submit a golfed solution without a non golfed solution (TO A PROMPT THAT ASKS FOR IT), it will be rejected.
 
