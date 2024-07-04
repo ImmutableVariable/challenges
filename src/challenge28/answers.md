@@ -32,27 +32,24 @@ println!("{:?}", zeckendorf_representation(4));
 #}
 ```
 
-### Python Equivalent
+## Python
 
 ```python
-~from typing import List
+def fib(n):
+    l = []
+    a, b = 0, 1
+    while b < n:
+        a, b = b, a+b
+        l.append(a)
+    return l
 
-~def get_fibonacci(n: int) -> List[int]:
-    ~numbers = [0, 1]
-    ~while len(numbers) < n:
-        ~next_number = numbers[-1] + numbers[-2]
-        ~numbers.append(next_number)
-    ~return numbers
-def zeckendorf_representation(n: int) -> List[int]:
-    numbers = get_fibonacci(50) 
-    result = []
-    i = len(numbers) - 1
-    while n > 0 and i > 0:
-        if numbers[i] <= n:
-            n -= numbers[i]
-            result.append(numbers[i])
-        if i > 0: i -= 1
-
-    return result
-~print(zeckendorf_representation(64))
+def zec(n):
+    l = []
+    nums = fib(n)
+    while len(nums) > 0:
+        if max(nums) <= n - sum(l):
+            l.append(max(nums))
+            nums.pop()
+        else:
+            nums.pop()
 ```
