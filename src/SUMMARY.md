@@ -58,3 +58,5 @@
     - [Answer](./challenge27/answers.md)
 - [Zeckendorf Representation](./challenge28/README.md)
     - [Answer](./challenge28/answers.md)
+- [Lychrel Numbers](./challenge29/README.md)
+    - [Answer](./challenge29/answers.md)
