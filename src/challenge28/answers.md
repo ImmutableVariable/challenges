@@ -52,4 +52,5 @@ def zec(n):
             nums.pop()
         else:
             nums.pop()
+    return l
 ```
