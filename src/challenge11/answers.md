@@ -1,6 +1,6 @@
 # Answer
 
-## JavaScript (basic)
+## JavaScript (recursive trial division)
 
 ```javascript
 function isAPrimeNumberRecursive(n, i = 2) {
@@ -9,6 +9,18 @@ function isAPrimeNumberRecursive(n, i = 2) {
     if (i * i > n) return true;
     return isAPrimeNumberRecursive(n, i + 1);
 }
+```
+
+## Python 
+
+```python
+def is_a_prime_number(n: int) -> bool:
+    if n <= 2:
+        return n == 2
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
 ```
 
 ## JavaScript (Solovay–Strassen primality test)

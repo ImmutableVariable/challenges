@@ -1,6 +1,6 @@
 # Answer
 
-## Haskell (bad) 
+## Haskell 
 ```hs
 collatzSequenceForN :: (Integral a) => a -> [a]
 collatzSequenceForN n
@@ -12,7 +12,8 @@ collatzSequenceToN :: (Integral a) => a -> [[a]]
 collatzSequenceToN n = map collatzSequenceForN [1..n]
 ```
 
-Javascript (Recursive)
+## Javascript (Recursive)
+
 ```javascript
 function collatzForN(n) {
     if (n === 1) return [1];
@@ -26,7 +27,8 @@ function getCollatzToN(n) {
 }
 ```
 
-Javascript (Iterative)
+## Javascript (Iterative)
+
 ```javascript
 function collatzForN(n) {
     const sequence = [];
@@ -39,3 +41,14 @@ function collatzForN(n) {
 }
 ```
 
+## Python
+
+```python
+def collatz_for_n(n):
+    sequence = []
+    while n != 1:
+        sequence.append(n)
+        n = n // 2 if n % 2 == 0 else 3 * n + 1
+    sequence.append(1)
+    return sequence
+```

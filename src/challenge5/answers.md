@@ -21,3 +21,10 @@ function reverseOddWords(string) {
 reverseOddWords :: String -> String 
 reverseOddWords = unwords . map (\x -> if odd (length x) then reverse x else x) . words
 ```
+
+## Python
+
+```python
+def reverse_odd_words(s: str) -> str:
+    return ' '.join([word[::-1] if len(word) % 2 != 0 else word for word in s.split()])
+```

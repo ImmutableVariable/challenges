@@ -21,3 +21,16 @@ isRightTriangle arr
     | otherwise = a^2 + b^2 == c^2
     where [a, b, c] = sort arr
 ```
+
+## Python
+
+```python
+from typing import List
+
+def is_right_triangle(arr: List[int]) -> bool:
+    if len(arr) != 3:
+        return False
+    
+    a, b, c = sorted(arr)
+    return a ** 2 + b ** 2 == c ** 2
+```

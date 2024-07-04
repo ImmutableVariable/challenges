@@ -28,7 +28,7 @@ Please follow the format of the existing challenges.
 - Create a pull request
 
 
-#### Special Instructions for Rust Solutions
+#### Special Instructions for Rust (And Python) Solutions
 MdBook features a runtime for the builtin code blocks, please include the valid code to run the test/code in the code block. You can use the following syntax to run the code block:
 
 ```bash
@@ -48,6 +48,8 @@ Therefore, all the end user will see is
 
     println!("{}", x + y);
 ```
+
+In python, you will replace `rust` with `python` and replace the `#` with a `~` and it will output similarly.
 
 However, they can click in the top right corner and run the code on their machine. More info [here](https://rust-lang.github.io/mdBook/format/mdbook.html).
 

@@ -35,3 +35,19 @@ println!("{}", longest_word("My name is")); // name
 println!("{}", longest_word("What is the longest word in this sentence")); // sentence
 # }
 ```
+
+### Python Equivalent
+
+```python
+def longest_word(s: str) -> str:
+    words = s.split()
+    longest = ''
+    for word in words:
+        if len(word) > len(longest):
+            longest = word
+    return longest
+
+print(longest_word("Hello there")) # Hello
+print(longest_word("My name is")) # name
+print(longest_word("What is the longest word in this sentence")) # sentence
+```

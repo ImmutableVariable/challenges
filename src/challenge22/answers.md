@@ -32,3 +32,29 @@ function RLEDecode(str) {
   return decoded;
 }
 ```
+
+### Python Equivalent
+
+```python
+def rle_encode(s: str) -> str:
+    encoded = ''
+    count = 1
+    for i in range(len(s)):
+        if i + 1 < len(s) and s[i] == s[i + 1]:
+            count += 1
+        else:
+            encoded += str(count) + s[i]
+            count = 1
+    return encoded
+
+def rle_decode(s: str) -> str:
+    decoded = ''
+    count = ''
+    for i in range(len(s)):
+        if s[i].isdigit():
+            count += s[i]
+        else:
+            decoded += s[i] * int(count)
+            count = ''
+    return decoded
+```

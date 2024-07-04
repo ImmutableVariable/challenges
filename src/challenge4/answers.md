@@ -20,3 +20,12 @@ func rotate(nums []int, k int, right bool) []int {
     return append(nums[k:], nums[:k]...)
 }
 ```
+
+## Python
+
+```python
+def rotate(nums, k, right=False):
+    if right:
+        k = len(nums) - k
+    return nums[k:] + nums[:k]
+```

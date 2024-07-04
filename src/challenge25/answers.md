@@ -53,3 +53,43 @@ function findNthTermInSequence(sequence, n) {
     }
 }
 ```
+
+### Python Equivalent
+
+```python
+from typing import List, Union
+
+def get_series_type(sequence: List[int]) -> Union[str, None]:
+    if len(sequence) < 3:
+        raise ValueError("Sequence is not long enough, 3 items required. Found: " + str(len(sequence)))
+
+    differences = set()
+    ratios = set()
+
+    for i in range(1, len(sequence)):
+        difference = sequence[i] - sequence[i - 1]
+        ratio = sequence[i] / sequence[i - 1]
+
+        differences.add(difference)
+        ratios.add(ratio)
+
+    if len(differences) == 1:
+        return "arithmetic"
+    if len(ratios) == 1:
+        return "geometric"
+
+    return None
+
+def find_nth_term_in_sequence(sequence: List[int], n: int) -> Union[int, None]:
+    series_type = get_series_type(sequence)
+    if series_type == "arithmetic":
+        difference = sequence[1] - sequence[0]
+        return sequence[-1] + difference * (n - len(sequence))
+    elif series_type == "geometric":
+        ratio = sequence[1] / sequence[0]
+        return sequence[-1] * ratio ** (n - len(sequence))
+    else:
+        raise ValueError("Unsupported series type")
+
+~print(find_nth_term_in_sequence([3, 6, 9], 4))  # 12
+```
