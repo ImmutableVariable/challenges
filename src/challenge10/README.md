@@ -9,5 +9,5 @@ It goes like this:
 
 Create a program that can calculate the sequence for all n > 0 to 10000 (or 100000 (slo))
 
-![Collatz Conjecture](/images/collatz.png)
+![Collatz Conjecture](../images/collatz.png)
 
