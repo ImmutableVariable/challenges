@@ -60,3 +60,5 @@
     - [Answer](./challenge28/answers.md)
 - [Lychrel Numbers](./challenge29/README.md)
     - [Answer](./challenge29/answers.md)
+- [Boomerang Numbers](./challenge30/README.md)
+    - [Answer](./challenge30/answers.md)
