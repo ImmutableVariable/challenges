@@ -62,5 +62,7 @@
     - [Answer](./challenge29/answers.md)
 - [Boomerang Numbers](./challenge30/README.md)
     - [Answer](./challenge30/answers.md)
-- [Brainfuck Interpreter](./challenge31/README.md)
+- [BF Interpreter](./challenge31/README.md)
     - [Answer](./challenge31/answers.md)
+- [Grouping Lists Based On Their Most Common Shared Element](./challenge32/README.md)
+    - [Answer](./challenge32/answers.md)
