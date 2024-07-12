@@ -5,7 +5,9 @@
 I think this one works right...
 
 ```rust
-// running: ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
+const PROGRAM: &str = r#"
+    ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
+"#;
 const INCREMENT_DATAPOINTER: char = '>';
 const DECREMENT_DATAPOINTER: char = '<';
 const INCREMENT_BYTE: char = '+';
@@ -121,9 +123,7 @@ fn evaluate(instructions: &[Instruction]) {
     }
 }
 #fn main() {
-    #let instructions = parse(r#"
-        #++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
-    #"#).unwrap();
+    #let instructions = parse(PROGRAM).unwrap();
     #evaluate(&instructions);
 #}
 ```
