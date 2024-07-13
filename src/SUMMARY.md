@@ -66,3 +66,6 @@
     - [Answer](./challenge31/answers.md)
 - [Grouping Lists Based On Their Most Common Shared Element](./challenge32/README.md)
     - [Answer](./challenge32/answers.md)
+- [Pascal's Triangle](./challenge33/README.md)
+    - [Answer](./challenge33/answers.md)
+    
