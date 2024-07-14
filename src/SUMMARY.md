@@ -68,4 +68,5 @@
     - [Answer](./challenge32/answers.md)
 - [Pascal's Triangle](./challenge33/README.md)
     - [Answer](./challenge33/answers.md)
-    
+- [Perfect Numbers](./challenge34/README.md)
+    - [Answer](./challenge34/answers.md)
