@@ -70,3 +70,5 @@
     - [Answer](./challenge33/answers.md)
 - [Perfect Numbers](./challenge34/README.md)
     - [Answer](./challenge34/answers.md)
+- [ASCII Art/PNG Parsing](./challenge35/README.md)
+    - [Answer](./challenge35/answers.md)
