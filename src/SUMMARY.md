@@ -72,3 +72,7 @@
     - [Answer](./challenge34/answers.md)
 - [ASCII Art/PNG Parsing](./challenge35/README.md)
     - [Answer](./challenge35/answers.md)
+- [Merge Intervals](./challenge36/README.md)
+    - [Answer](./challenge36/answers.md)
+- [Edit Distance](./challenge37/README.md)
+    - [Answer](./challenge37/answers.md)
