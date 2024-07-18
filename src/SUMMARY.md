@@ -76,3 +76,5 @@
     - [Answer](./challenge36/answers.md)
 - [Edit Distance](./challenge37/README.md)
     - [Answer](./challenge37/answers.md)
+- [Error Correcting Codes](./challenge38/README.md)
+    - [Answer](./challenge38/answers.md)
