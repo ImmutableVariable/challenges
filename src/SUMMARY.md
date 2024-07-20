@@ -78,3 +78,5 @@
     - [Answer](./challenge37/answers.md)
 - [Error Correcting Codes](./challenge38/README.md)
     - [Answer](./challenge38/answers.md)
+- [Cash To Coins](./challenge39/README.md)
+    - [Answer](./challenge39/answers.md)
