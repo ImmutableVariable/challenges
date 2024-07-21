@@ -54,3 +54,24 @@ func reverseStringPreservePunctuation(s string) string {
 	return string(r)
 }
 ```
+
+## Python
+
+```python
+def reverse_string_preserve_punctuation(s):
+    characters = list(s)
+    left_index = 0
+    right_index = len(characters) - 1
+
+    while left_index < right_index:
+        if not characters[left_index].isalnum():
+            left_index += 1
+        elif not characters[right_index].isalnum():
+            right_index -= 1
+        else:
+            characters[left_index], characters[right_index] = characters[right_index], characters[left_index]
+            left_index += 1
+            right_index -= 1
+
+    return ''.join(characters)
+```
