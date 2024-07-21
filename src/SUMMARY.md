@@ -80,3 +80,5 @@
     - [Answer](./challenge38/answers.md)
 - [Cash To Coins](./challenge39/README.md)
     - [Answer](./challenge39/answers.md)
+- [Morse Code Translator](./challenge40/README.md)
+    - [Answer](./challenge40/answers.md)
