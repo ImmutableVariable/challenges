@@ -82,3 +82,5 @@
     - [Answer](./challenge39/answers.md)
 - [Morse Code Translator](./challenge40/README.md)
     - [Answer](./challenge40/answers.md)
+- [Prime Number Factorization](./challenge41/README.md)
+    - [Answer](./challenge41/answers.md)
