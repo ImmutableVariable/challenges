@@ -84,3 +84,5 @@
     - [Answer](./challenge40/answers.md)
 - [Prime Number Factorization](./challenge41/README.md)
     - [Answer](./challenge41/answers.md)
+- [Sorting Challenge](./challenge42/README.md)
+    - [Answer](./challenge42/answers.md)
